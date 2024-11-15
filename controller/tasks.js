@@ -1,5 +1,5 @@
 const { json } = require("express");
-
+const Task = require('../models/Task');
 //the functions are made here all function when called look for req and res and manipulate it
 const getAllTasks = (req,res) => {
     res.send('get all tasks')
